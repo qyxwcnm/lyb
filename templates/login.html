@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<title>登录</title>
+<style>
+body{background:#f5f7fa;font-family:system-ui}
+.box{max-width:400px;margin:60px auto;background:#fff;padding:30px;border-radius:12px;box-shadow:0 2px 15px rgba(0,0,0,0.05)}
+h2{text-align:center;margin-bottom:20px}
+input{width:100%;padding:12px;margin-bottom:15px;border:1px solid #eee;border-radius:8px}
+button{width:100%;padding:12px;background:#409eff;color:#fff;border:none;border-radius:8px;cursor:pointer}
+.link{text-align:center;margin-top:15px;font-size:14px}
+a{color:#409eff;text-decoration:none}
+</style>
+
+<div class="box">
+  <h2>登录</h2>
+  <input id="username" placeholder="账号">
+  <input id="password" type="password" placeholder="密码">
+  <button onclick="login()">登录</button>
+  <div class="link">没有账号？<a href="/register">去注册</a></div>
+</div>
+
+<script src="/static/script.js"></script>

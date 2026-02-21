@@ -1,0 +1,7 @@
+[
+  {
+    "username": "admin",
+    "password": "pbkdf2:sha256:600000$6oOgCaHnjLFz1Ryd$cbf5e82c2b3e457141e5c2412f0aea244539c205c9f5426148f8b7b558418b0e",
+    "is_admin": true
+  }
+]
